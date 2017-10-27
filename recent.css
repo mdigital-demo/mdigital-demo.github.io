@@ -1,0 +1,63 @@
+.md-main-color {
+	color: #e1005d;
+}
+
+.md-recent-campaigns {
+    border: 2px solid;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+    width: 100%;
+}
+
+.md-recent-campaigns tr {
+    border-bottom: solid;
+}
+
+.md-recent-campaigns td {
+    font-family: 'Bree Serif', serif;
+    color: #e1005d;
+    vertical-align: middle;
+    text-align: left;
+    /*width: 1%;*/
+    /*white-space: nowrap;*/
+}
+
+.md-recent-campaigns tr > td:last-of-type {
+    text-align: right;
+}
+
+.md-recent-campaigns span {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.md-recent-campaign {
+    font-size: 2.5rem;
+    font-family: 'Bree Serif', serif;
+}
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+    background-color: #e1005d;
+    color: white;
+}
+
+.md-footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	line-height: 60px; /* Vertically center the text there */
+	border-top: 1px solid #f9f9f9;
+	color: #fff;
+	padding: 10px 0;
+	background-color: #e1005d;
+	text-align: center;
+}
+
+.md-footer a {
+	color: #fff;
+	text-decoration: underline;
+}
+.md-footer a:hover {
+	color: #f988af;
+	text-decoration: none;
+}
